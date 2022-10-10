@@ -363,7 +363,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -460,33 +460,33 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p><font size="5"><b></b></font></p><h1><font size="5"><b>继承关系（generalization）</b></font></h1><font size="5"><b> </b> </font><p><b>继承</b>关系用一条带<b>空心箭头的直线</b>表示。如下图所示（A继承自B）：</p><br><img src="/medias/images/post4.png" alt="A继承自B"><br><b>继承</b>指的是一个类（称为子类、子接口）继承另外的一个类（称为父类、父接口）的功能，并可以增加它自己的新功能的能力。<b>继承关系</b>为 <font color="#EA6F0B">is-a</font> <b>的关系</b>，是类与类或者接口与接口之间最常见的关系之一，在Java中此类关系通过关键字 <font color="#EA6F0B">extends</font> 来表示。<p></p>
+                <p><font size="5"><b></b></font></p><h1><font size="5"><b>继承关系（generalization）</b></font></h1><font size="5"><b> </b> </font><p><b>继承</b>关系用一条带<b>空心箭头的直线</b>表示。如下图所示（A继承自B）：</p><br><img src="/medias/images/post3.png" alt="A继承自B"><br><b>继承</b>指的是一个类（称为子类、子接口）继承另外的一个类（称为父类、父接口）的功能，并可以增加它自己的新功能的能力。<b>继承关系</b>为 <font color="#EA6F0B">is-a</font> <b>的关系</b>，是类与类或者接口与接口之间最常见的关系之一，在Java中此类关系通过关键字 <font color="#EA6F0B">extends</font> 来表示。<p></p>
 <blockquote>
 <p><b>注意</b>：表现在代码中，继承关系表现为<b>一个类继承另一个类或者一个接口继承另一个接口。</b></p>
 </blockquote>
-<p><font size="5"><b></b></font></p><h1><font size="5"><b>实现关系（realization）</b></font></h1><font size="5"><b> </b> </font><p><b>实现</b>关系是用一条带<b>空心箭头的虚线</b>表示。如下图所示（A实现B）：</p><br><img src="/medias/images/post5.png" alt="A实现B"><br><b>实现</b>指的是一个 <font color="#EA6F0B">class</font> 类实现 <font color="#EA6F0B">interface</font> 接口（可以是多个）的功能。实现是类与接口之间最常见的关系之一，在Java中此类关系通过关键字 <font color="#EA6F0B">implements</font> 来表示。<p></p>
+<p><font size="5"><b></b></font></p><h1><font size="5"><b>实现关系（realization）</b></font></h1><font size="5"><b> </b> </font><p><b>实现</b>关系是用一条带<b>空心箭头的虚线</b>表示。如下图所示（A实现B）：</p><br><img src="/medias/images/post4.png" alt="A实现B"><br><b>实现</b>指的是一个 <font color="#EA6F0B">class</font> 类实现 <font color="#EA6F0B">interface</font> 接口（可以是多个）的功能。实现是类与接口之间最常见的关系之一，在Java中此类关系通过关键字 <font color="#EA6F0B">implements</font> 来表示。<p></p>
 <blockquote>
 <p><b>注意</b>：表现在代码中，实现关系表现为<b>普通类实现某个接口。</b></p>
 </blockquote>
-<p><font size="5"><b></b></font></p><h1><font size="5"><b>关联关系（association）</b></font></h1><font size="5"><b> </b> </font><p><b>关联</b>关系是用一条<b>可能会有方向的直线</b>表示的。关联关系默认不强调方向，表示对象间相互知道；如果特别强调方向，如上图，表示A关联B，但B不关联A；如下图所示：</p><br><img src="/medias/images/post6.png" alt="A关联B"><br><b>关联</b>关系体现的是两个类、或者类与接口之间语义级别的一种强依赖的结构关系，是一种长期的静态稳定的关系，通常与运行状态无关，一般由常识等因素决定的。<p></p>
+<p><font size="5"><b></b></font></p><h1><font size="5"><b>关联关系（association）</b></font></h1><font size="5"><b> </b> </font><p><b>关联</b>关系是用一条<b>可能会有方向的直线</b>表示的。关联关系默认不强调方向，表示对象间相互知道；如果特别强调方向，如上图，表示A关联B，但B不关联A；如下图所示：</p><br><img src="/medias/images/post5.png" alt="A关联B"><br><b>关联</b>关系体现的是两个类、或者类与接口之间语义级别的一种强依赖的结构关系，是一种长期的静态稳定的关系，通常与运行状态无关，一般由常识等因素决定的。<p></p>
 <p>例如：乘车人和车票之间就是一种关联关系。</p>
 <blockquote>
 <p><b>注意</b>：表现在代码中，<b>被关联类以类属性的形式出现在关联类中，也可能是关联类引用了一个类型为被关联类的全局变量。</b></p>
 </blockquote>
-<p><font size="5"><b></b></font></p><h1><font size="5"><b>聚合关系（aggregation）</b></font></h1><font size="5"><b> </b> </font><p><b>聚合</b>关系用一条带<b>空心菱形箭头的直线</b>表示，如下图所示A聚合到B，或者说B由A组成。</p><br><img src="/medias/images/post7.png" alt="A聚合到B"><br><b>聚合</b>关系用于表示实体对象之间的关系，表示整体由部分构成的意思。<b>聚合是关联关系的一种特例，它体现的是整体与部分、拥有的关系，即</b> <font color="#EA6F0B">has-a</font> <b>的关系</b>，此时整体与部分之间是<b>可分离</b>的，他们可以具有各自的生命周期，部分可以属于多个整体对象，也可以为多个整体对象共享。例如一个部门由多个员工组成。<p></p>
+<p><font size="5"><b></b></font></p><h1><font size="5"><b>聚合关系（aggregation）</b></font></h1><font size="5"><b> </b> </font><p><b>聚合</b>关系用一条带<b>空心菱形箭头的直线</b>表示，如下图所示A聚合到B，或者说B由A组成。</p><br><img src="/medias/images/post6.png" alt="A聚合到B"><br><b>聚合</b>关系用于表示实体对象之间的关系，表示整体由部分构成的意思。<b>聚合是关联关系的一种特例，它体现的是整体与部分、拥有的关系，即</b> <font color="#EA6F0B">has-a</font> <b>的关系</b>，此时整体与部分之间是<b>可分离</b>的，他们可以具有各自的生命周期，部分可以属于多个整体对象，也可以为多个整体对象共享。例如一个部门由多个员工组成。<p></p>
 <blockquote>
 <p><b>注意</b>：表现在代码中，和关联关系是一致的，只能从语义级别来区分。聚合与组合不同的是，整体和部分不是强依赖的，即使整体不存在了，部分仍然存在；例如，部门撤销了，人员不会消失，他们依然存在。</p>
 </blockquote>
-<p><font size="5"><b></b></font></p><h1><font size="5"><b>组合关系（composition）</b></font></h1><font size="5"><b> </b> </font><p><b>组合</b>关系用一条带<b>实心菱形箭头的直线</b>表示，如下图表示A组成B，或者B由A组成。</p><br><img src="/medias/images/post8.png" alt="A组合到B"><br><b>组合</b>关系同样表示整体由部分组成的意思。与聚合关系一样，<b>组合也是关联关系的一种特例，它体现的是一种整体与部分不可分割的关系，即</b> <font color="#EA6F0B">contains-a</font> <b>的关系，这种关系比聚合更强，也称为强聚合</b>。例如公司由多个部门组成组合，但此时整体与部分是<b>不可分离</b>的，整体的生命周期结束也就意味着部分的生命周期结束。<p></p>
+<p><font size="5"><b></b></font></p><h1><font size="5"><b>组合关系（composition）</b></font></h1><font size="5"><b> </b> </font><p><b>组合</b>关系用一条带<b>实心菱形箭头的直线</b>表示，如下图表示A组成B，或者B由A组成。</p><br><img src="/medias/images/post7.png" alt="A组合到B"><br><b>组合</b>关系同样表示整体由部分组成的意思。与聚合关系一样，<b>组合也是关联关系的一种特例，它体现的是一种整体与部分不可分割的关系，即</b> <font color="#EA6F0B">contains-a</font> <b>的关系，这种关系比聚合更强，也称为强聚合</b>。例如公司由多个部门组成组合，但此时整体与部分是<b>不可分离</b>的，整体的生命周期结束也就意味着部分的生命周期结束。<p></p>
 <blockquote>
 <p><b>注意</b>：表现在代码中，和关联关系是一致的，只能从语义级别来区分。组合关系是一种强依赖的特殊聚合关系，如果整体不存在了，则部分也就不存在了。例如，公司不存在了，部门也将不存在了。</p>
 </blockquote>
-<p><font size="5"><b></b></font></p><h1><font size="5"><b>依赖关系（dependency）</b></font></h1><font size="5"><b> </b> </font><p><b>依赖</b>关系是用一套<b>带箭头的虚线</b>表示的；如下图表示A依赖于B；他描述一个对象在运行期间会用到另一个对象的关系。</p><br><img src="/medias/images/post9.png" alt="A依赖于B"><br><b>依赖</b>关系是一个类A使用到了另一个类B，而这种使用关系是具有偶然性的、临时性的、非常弱的，但是B类的变化会影响到A，与关联关系不同的是，它是一种<b>临时性</b>的关系，通常在运行期间产生，并且随着运行时的变化依赖关系也可能发生变化。<p></p>
+<p><font size="5"><b></b></font></p><h1><font size="5"><b>依赖关系（dependency）</b></font></h1><font size="5"><b> </b> </font><p><b>依赖</b>关系是用一套<b>带箭头的虚线</b>表示的；如下图表示A依赖于B；他描述一个对象在运行期间会用到另一个对象的关系。</p><br><img src="/medias/images/post8.png" alt="A依赖于B"><br><b>依赖</b>关系是一个类A使用到了另一个类B，而这种使用关系是具有偶然性的、临时性的、非常弱的，但是B类的变化会影响到A，与关联关系不同的是，它是一种<b>临时性</b>的关系，通常在运行期间产生，并且随着运行时的变化依赖关系也可能发生变化。<p></p>
 <p>显然，依赖也有方向，双向依赖是一种非常糟糕的结构，我们总是应该保持单向依赖，杜绝双向依赖的产生。</p>
 <blockquote>
 <p><b>注意</b>：表现在代码中，依赖关系体现为<b>类的构造方法及类方法的传入参数</b>。</p>
 </blockquote>
-<p><font size="5"><b></b></font></p><h1><font size="5"><b>UML类关系图示例</b></font></h1><font size="5"><b> </b> </font><p>请看以下这个UML类关系图：</p><br><img src="/medias/images/post10.png" alt="UML示例"><p></p>
+<p><font size="5"><b></b></font></p><h1><font size="5"><b>UML类关系图示例</b></font></h1><font size="5"><b> </b> </font><p>请看以下这个UML类关系图：</p><br><img src="/medias/images/post9.png" alt="UML示例"><p></p>
 <ul>
 <li>开车的类图结构表示的是一个接口</li>
 <li>有一个自行车的抽象类，实现了开车的接口，它们之间的关系为实现关系，使用带空心三角箭头的虚线表示</li>
@@ -653,7 +653,7 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="UML各类关系介绍">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="UML各类关系介绍">
                         
                         <span class="card-title">UML各类关系介绍</span>
                     </div>
