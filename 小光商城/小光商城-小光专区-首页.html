@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>小光商城-电子数码潮玩好物</title>
+		<!--引入icon图标-->
+		<link rel="icon" href="image/zfx.jpg"  type="image/x-icon">
+		<!-- 引入css重置样式表 -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<!-- 引入css重叠样式表 -->
+		<link rel="stylesheet" type="text/css" href="css/phone.css"/>
+		<!-- 引入字体图标 -->
+		<link rel="stylesheet" type="text/css" href="font/字体一/iconfont.css"/>
+		<!-- 引入JS脚本语言 -->
+		<script type="text/javascript" src="js/js.js"></script>
+	</head>
+	<body  onload="allauto()">
+		<!-- 顶部背景盒子 -->
+		<div class="top" >
+			<!-- 中间内容盒子 -->
+			<div class="topcontent">
+				<!-- 顶部导航栏 -->
+				<div class="top-top">
+					<!-- 顶部左边导航栏 -->
+					<div class="top-topleft">
+						<ul>
+							<li><a href="" name="toop">小光官网</a></li>
+							<li><a href="">loT</a></li>
+							<li><a href="">云服务</a></li>
+							<li><a href="">北星科技</a></li>
+							<li><a href="">有品</a></li>
+							<li><a href="">企业团购</a></li>
+							<li><a href="">开放平台</a></li>
+							<li><a href="">资质证照</a></li>
+							<li><a href="">智能生活</a></li>
+							<li><a href="">协议规则</a></li>
+							<li><a href="">下载App</a></li>
+						</ul>
+					</div>
+					<!-- 顶部右边购物 -->
+					<div class="top-topright">
+						<ul>
+							<div class="shopping" id="shopping" onmouseover="shop()"><span class="iconfont icon-cart-Empty1"></span><a href="">购物车(0)</a></div>
+							<li><a href="">注册</a><i>|</i></li>
+							<li ><!-- <span class="iconfont icon-account"></span> --><a href="">登录</a><i>|</i></li>
+						</ul>
+					</div>
+					<div class="shoppinghide" id="shoppinghide">
+						<p id="ts">购物车中没有商品，赶紧选购吧！</p>
+					</div>
+				</div>
+				<!-- 顶部大logo和搜索部分 -->
+				<div class="navigation">
+					<div class="navigation-logo">
+						<div class="pic"></div>
+						<h1>小光商城</h1>
+					</div>
+					<div class="navigation-content">
+						<ul>
+							<li><a href="" id="nav-check">小光专区</a></li>
+							<li><a href="小光商城-光幻专区.html">光幻专区</a></li>
+							<li><a href="小光商城-starlight专区.html">starlight专区</a></li>
+							<li><a href="小光商城-智能硬件.html">智能硬件</a></li>
+							<li><a href="小光商城-潮流好物.html">潮流好物</a></li>
+							<li><a href="小光商城-服务.html">服务</a></li>
+						</ul>
+					</div>
+					<div class="navigation-search">
+						<input type="text" name="" id="inputs" value="" placeholder="全部商品"  />
+						<a href="javascript:history.go()"><p class="iconfont icon-sousuo"></p></a>
+					</div>
+				</div>
+				<!-- 中间轮播图 -->
+				<div class="middlepic" id="middlepic" >
+					<a href="" id="lba"><img src="image/one.jpg" id="imglb" ></a>
+					<div id="arrowleft" onmouseover="changecolor()" onmouseout="recovery()"><span class="iconfont icon-arrow-left1" id="leftcolor"></span></div>
+					<div id="arrowright" onmouseover="changecolorto()" onmouseout="recoveryto()"><span class="iconfont icon-arrow-right1" id="rightcolor"></span></div>
+					<dl id="circle">
+						<dd></dd>
+						<dd></dd>
+						<dd></dd>
+						<dd></dd>
+					</dl>
+				</div>
+				<!-- 底部手机图片 -->
+				<div class="bottompic">
+					<ul>
+						<li>
+							<a href=""><img src="image/1-bottom-1.webp" ><span>小光9Pro</span></a>
+						</li>
+						<li>
+							<a href=""><img src="image/1-bottom-2%20(2).webp"><span>旗舰K系列</span></a>
+						</li>
+						<li>
+							<a href=""><img src="image/1-bottom-2%20(3).webp" ><span>玩家X系列</span></a>
+						</li>
+						<li>
+							<a href=""> <img src="image/1-bottom-4.webp" ><span>智能声学</span></a>
+						</li>
+						<li>
+							<a href=""><img src="image/1-bottom-5.webp" ><span>智能穿戴</span></a>
+						</li>
+						<li>
+							<a href=""><img src="image/1-bottom-6.webp" ><span>智能电视</span></a>
+						</li>
+						<li>
+							<a href=""><img src="image/1-bottom-7.webp" ><span>充电配件</span></a>	
+						</li>
+						<li>
+							<a href=""><img src="image/1-bottom-8.webp" ><span>starlight10&nbsp;Pro</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--底部区域-->
+		<div class="middle">
+			<div class="middle-content">
+				<div class="bottom w" id="bottom" >
+					<!-- 左边六张图片区域 -->
+					<div class="bottom-left-list" id="bottomleft">
+						<ul>
+							<li>
+								<a href=""><img src="image/小米秒杀-1.png" ><br><span>小光秒杀</span></a>
+							</li>
+							<li>
+								<a href=""><img src="image/企业团购-2.png" ><br><span>企业团购</span></a>
+							</li>
+							<li>
+								<a href=""><img src="image/F码通道.png" ><br><span>F码通道</span></a>
+							</li>
+							<li>
+								<a href=""><img src="image/米粉卡-4.png" ><br><span>光幻卡</span></a>
+							</li>
+							<li>
+								<a href=""><img src="image/以旧换新-5.png" ><br><span>以旧换新</span></a>
+							</li>
+							<li>
+								<a href=""><img src="image/话费充值-6.png" ><br><span>话费充值</span></a>
+							</li>
+						</ul>
+						<!-- 左边列表线框 -->
+						<!-- 竖线区域 -->
+							<div class="list-line1"></div>
+							<div class="list-line2"></div>
+							<div class="list-line3"></div>
+							<div class="list-line4"></div>
+							<div class="list-line5"></div>
+							<div class="list-line6"></div>
+						<!-- 横线区域 -->
+							<div class="list-u-line1"></div>
+							<div class="list-u-line2"></div>
+							<div class="list-u-line3"></div>
+					</div>
+					<!-- 右边三张图片 -->
+					<div class="bottom-right-pc" id="bottomright">
+						<ul>
+							<li >
+								<a href=""><img src="image/升图2.jpg" ></a>
+							</li>
+							<li>
+								<a href=""><img src="image/展图升1.jpg" ></a>
+							</li>
+							<li >
+								<a href=""><img src="image/展图3.jpg" ></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="series">
+					<div class="seriesleft">
+						<ul>
+							<li><a href="" ><img src="image/1-middle-1.jpg" class="acone"></a></li>
+							<li><a href=""><img src="image/1-middle-three.jpg"></a></li>
+							<li><a href=""><img src="./image/1-middle-5.jpg" ></a></li>
+						</ul>
+					</div>
+					<div class="seriesright">
+						<ul>
+							<li><a href=""><img src="image/1-middle-two.jpg" ></a></li>
+							<li><a href=""><img src="image/1-middle-four.jpg" ></a></li>
+							
+							<li><a href=""><img src="./image/1-middle-6.jpg" ></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="gyu">
+					<h1>关于小光</h1>
+					<div class="gyu-pic">
+						<img src="image/bigpicg.jpg" >
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footerbox">
+			<!-- 售后退货图 -->
+			<div class="footerbox-top">
+				<ul>
+					<li><a href=""><img src="image/ft-1.svg" ><br><span>1年全国联保</span></a></li>
+					<li><a href=""><img src="image/ft-2.svg" ><br><span>7天无理由退货</span></a></li>
+					<li><a href=""><img src="image/ft-3.svg" ><br><span>官方换货保障</span></a></li>
+					<li><a href=""><img src="image/ft-4.svg" ><br><span>满79元包邮</span></a></li>
+					<li><a href=""><img src="image/ft-5.svg" ><br><span>85629家售后网点</span></a></li>
+				</ul>
+			</div>
+			<!-- 下划线1 -->
+			<div class="footerbox-oneline"></div>
+			<!-- 产品和客服 -->
+			<div class="footerbox-content">
+				<div class="footerbox-contentleft">
+					<div class="footerbox-contentleft-one">
+						<h2>光幻产品</h2>
+						<p><a href="">光幻&nbsp;X5</a></p>
+						<p><a href="">光幻&nbsp;K8Pro</a></p>
+						<p><a href="">光幻&nbsp;9s</a></p>
+						<p><a href="">光幻&nbsp;K7x</a></p>
+						<p><a href="">光幻&nbsp;Find&nbsp;X3</a></p>
+						<p><a href="">光幻&nbsp;Find&nbsp;X14&nbsp;Pro</a></p>
+						<p><a href="">光幻&nbsp;P10&nbsp;Pro</a></p>
+					</div>
+					<div class="footerbox-contentleft-two">
+						<h2>小光产品</h2>
+						<p><a href="">小光&nbsp;12</a></p>
+						<p><a href="">小光&nbsp;Y15</a></p>
+						<p><a href="">小光&nbsp;P50s</a></p>
+						<p><a href="">小光&nbsp;K9&nbsp;Pro</a></p>
+						<p><a href="">小光&nbsp;K9&nbsp;Plus</a></p>
+						<p><a href="">小光&nbsp;手表</a></p>
+						<p><a href="">小光&nbsp;Buds&nbsp;Pro</a></p>
+					</div>
+					<div class="footerbox-contentleft-three">
+						<h2>starlight产品</h2>
+						<p><a href="">starlight&nbsp;GT&nbsp;Neo4T</a></p>
+						<p><a href="">starlight&nbsp;手表T1</a></p>
+						<p><a href="">starlight&nbsp;X7&nbsp;Pro&nbsp;至尊版</a></p>
+						<p><a href="">starlight&nbsp;大师&nbsp;探索版</a></p>
+						<p><a href="">starlight&nbsp;Q9&nbsp;Plus</a></p>
+						<p><a href="">starlight&nbsp;Buds&nbsp;Air&nbsp;2</a></p>
+						<p><a href="">starlight&nbsp;Buds&nbsp;Pro&nbsp;透明探索版</a></p>
+					</div>
+					<div class="footerbox-contentleft-four">
+						<h2>服务政策</h2>
+						<p><a href="">光幻售后政策</a></p>
+						<p><a href="">小光售后政策</a></p>
+						<p><a href="">starlight售后政策</a></p>
+						<p><a href="">配送发货说明</a></p>
+						<p><a href="">花呗分期说明</a></p>
+						<p><a href="">电子发票说明</a></p>
+						<p><a href="">问题反馈</a></p>
+					</div>
+				</div>
+				<div class="footerbox-contentright">
+					<a href="" class="phonebutton">
+						<p><span><img src="image/footer-客服.svg" ></span>在线客服
+						</p>
+					</a>
+					<h1>007-1799-666</h1>
+					<h2>24小时全国热线</h2>
+				</div>
+			</div>
+			<!-- 下划线2 -->
+			<div class="footerbox-twoline"></div>
+			<!--最底部公安图标-->
+			<div class="footerbox-bottom">
+				<p>©&nbsp;2021&nbsp;小光&nbsp;版本所有&nbsp;<a href="">光ICP备1705569号</a>&nbsp;|&nbsp;<a href="">隐私政策</a>&nbsp;|&nbsp;<a href="">用户使用协议</a>&nbsp;|&nbsp;<a href="">资质证照</a>&nbsp;|&nbsp;<a href="">知识产权</a></p>
+				<p class="footerbox-bottom-lastp"><span><img src="image/footer-公安.png" ></span>&nbsp;&nbsp;<a href="" class="policetext">光公网安备&nbsp;55183337336849号</a></p>
+			</div>
+		</div>
+		<!-- 右边辅助菜单 -->
+		<div class="rightlist-father" id="rightlist-fz" >
+			<!-- 右边列表 -->
+			<div class="rightlist">
+				<a href="" onmouseover="righticon()">
+					<p class="iconfont icon-mobile-alt" id="right-one" ><br><span class="fdfont"><i id="sjapp">手机APP</i></span></p>
+					<span class="rightlist-uline1"></span>
+					
+				</a>
+				<a href="" onmouseover="righticontwoo()">
+					<p class="iconfont icon-account" id="right-two"	><br><span class="fdfont" ><i id="grzx">个人中心</i></span></p>
+					<span class="rightlist-uline2"></span>
+					
+				</a>
+				<a href="" onmouseover="righticonthree()">
+					<p class="iconfont icon-weixiufuwu" id="right-three" ><br><span class="fdfont"><i id="shfw">售后服务</i></span></p>
+					<span class="rightlist-uline3"></span>
+					
+				</a>
+				<a href="" onmouseover="righticonfour()">
+					<p class="iconfont icon-headset-fill" id="right-four" ><br><span class="fdfont"><i id="rgkf">人工客服</i></span></p>
+					<span class="rightlist-uline4"></span>
+					
+				</a>
+				<a href="" onmouseover="righticonfive()">
+					<p class="iconfont icon-cart-Empty1" id="right-five" ><br><span class="fdfont"><i id="gwcwb">购物车</i></span></p>
+					<span class="rightlist-uline5"></span>
+				</a>
+				<a href="#toop" onmouseover="righticonsix()">
+					<p class="iconfont icon-rise-filling" id="right-six" ><br><span class="fdfont"><i id="gotop">回到顶部</i></span></p>
+					
+				</a>
+			</div>
+			<!-- 右边图片和文本 -->
+			<div class="rightlist-pc">
+				<p class="righttxt1" id="rightpic1">下载App</p>
+				<p class="righttxt2" id="rightpc2">个人中心</p>
+				<p class="righttxt3" id="rightpc3">售后服务</p>
+				<p class="righttxt4" id="rightpc4">人工客服</p>
+				<p class="righttxt5" id="rightpc5">购物车&nbsp;(0)</p>
+				<p class="righttxt6" id="rightpc6">回到顶部</p>
+			</div>
+	</body>
+</html>
