@@ -1,0 +1,131 @@
+/* 顶部区域 */
+.topbk{width: 100%;background-color: #222222;height: 39px;z-index: 5;}
+.top{width: 100%;height: 800px;background-color: #1889F2;}
+.topcontent{width: 1260px;height: inherit;margin: 0 auto; }
+.top-top{width: inherit;height: 35px;}
+.top-topleft {margin-left: -20px;}
+.top-topleft ul li{float: left;margin-left: 20px;line-height: 35px;}
+.top-topleft ul li a{color: white;text-decoration:none;font-size: 13px;font-weight: bold;color: white;}
+.top-topleft ul li a:hover{color: #FF6A00;}
+.top-topright ul{margin-right: -19px;}
+.top-topright ul li{float: right;margin-right: 20px;line-height: 35px;}
+.top-topright ul li a{color: white;text-decoration:none;font-size: 13px;font-weight: bold;color: white;}
+.top-topright ul li i{margin-left: 17px;color: white;width: 1px;height: 0.5px;color: white;}
+.top-topright ul li a:hover{color: #FF6A00;}
+/* 购物车旁边的右划线 */
+.top-topright ul li .top-line1{width:1px;height:15px;margin-top: -24px;margin-left: 48px;border-right: 2px solid white;}
+.top-topright ul li .top-line2{width:1px;height:15px;margin-top: -24px;margin-left: 45px;border-right: 2px solid white;}
+.top-topright ul li  span{color:white; font-size:19px;line-height: 35px;position: relative;top: 2px;right: 4px;color: white;}
+.top-topright .shopping{float: right;margin-right: 0px;line-height: 35px;width: 80px;text-align: center;height: 35px;margin-right: 18px;text-align: right;}
+.top-topright .shopping a{color: white;text-decoration:none;font-size: 13px;font-weight: bold;color: white;}
+.top-topright .shopping a:hover{color:#FF6A00; ;}
+.top-topright .shopping span{color:white; font-size:19px;line-height: 35px;position: relative;top: 2px;right: 4px;color: white;}
+/* .shopping:hover{background-color: #aaff7f;cursor: pointer;} */
+/* 购物车隐藏部分 */
+/* .shoppinghide{width: 318px;height: 92px;background-color:#aaff7f ;text-align: center;font-size: 13px;position: absolute;
+left: 943px;top: 33px;display: none;z-index: 10;border: 1px solid none;border-top-left-radius: 10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;
+z-index: 500;
+} */
+.shoppinghide p{display: block;position: relative;top: 5px;color: white;font-family: '微软雅黑';font-size: 13px;font-weight: bold;color: white;}
+/* 导航部分 */
+.nav{width: 1260px;height: 90px;margin: 0 auto;background-color: white;z-index: 5;white-space:nowrap;margin-top:15px;}
+.navigation{width: inherit;height: 55px;margin-top: 15px;}
+.navigation-logo{width: 250px;height: inherit;float: left;}
+.navigation-logo .pic{width: 53px;height: inherit;background-image:url(../img/logo.jpg);background-size: 63px 63px;
+background-repeat: no-repeat;border:1px solid none ;border-radius: 10px;background-origin: content-box;background-position: -6px;
+float: left;} 
+.navigation-logo h1{float: left;font-size: 30px;color:black;font-family: '微软雅黑';line-height: 55px;margin-left: 20px;}
+.navigation-content{width: 710px;margin-left:17px;height: inherit;float: left;}
+.navigation-content li{float: left;margin-left: 45px;line-height: 55px;}
+.navigation-content li a{text-decoration: none;color: black;font-size: 18px;}
+/* #nav-check{color:red;} */
+#nav-check:hover{color:#FF6A00;}
+.navigation-content li a:hover{color: #FF6A00;}
+.navigation-search{width: 250px ;height: inherit;float: right;}
+.navigation-search input{width:166px; #8E8E94;margin-top: 8px;border: none;border-radius: 100px;background-color:#F6F6F6; height: 40px;
+margin-top: 5px;text-indent: 1em;float: left;margin-left: 80px;color: white;
+}
+.navigation-search input:focus{outline: none;}
+.navigation-search input::placeholder{color: #E1E1E1;}
+.navigation-search p{float: left;line-height: 40px;clear: black;font-size:22px;margin-right: 0px;position: relative;left: 220px;top: -39px;color: black;}
+.navigation-search p:hover{cursor: pointer;color:#FF6A00;}
+/* 下划线 */
+.line1{width: 100%;height: 1px;background-color: #E9E9E9;margin-top: 50px;margin-top: -20px;}
+/* 背景灰色盒子 */
+.bigbox{width: 100%;height: 1200px;background-color: #FAFAFA;padding-top: 10px;}
+.middlebox{width: 1260px;margin: 0 auto;height: 800px;}
+.walk{width: inherit;height: 275px;background-color: white;padding-top: 75px;}
+.shopping_icon{color: rgba(0,0,0,0.2);margin: 0 auto;width: inherit;height: 80px;text-align: center;}
+.shopping_icon span{line-height: 80px;font-size:70px;}
+.walk h2{font-family: '微软雅黑';font-size: 15px;color: #757675;text-align: center;margin-top: 24px;}
+.walk input{width: 150px;height: 50px;background-color: #F34141;text-align: center;border-radius:70px;outline: none;border: none;color: white;margin-top: 50px;display: block;margin: 0 auto;
+margin-top: 34px;
+}
+.walk a{text-decoration:none;}
+.walk input:hover{cursor: pointer;}
+.recommend{background-color: #F7F8FA;width: inherit;height: 700px;margin-top: 10px;padding-top: 80px;}
+.recommend p{float: left;font-size: 16px;font-family: "微软雅黑";color: #333;}
+.shortline1{width: 570px;height: 1px;background-color:#e7e7e7 ;}
+.shortline2{width: 570px;height: 1px;background-color:#e7e7e7 ;position: relative;right: -55px;}
+.youtxt{position: relative;left: 28px;top: -8px;}
+.youtxt span {font-size:16px;color: #333333;}
+/* 底部推荐商品 */
+.middle-content{height: 301px;width: inherit;margin-top: 35px;}
+.middle-content-right{width: inherit;height: 300px;float:right;}
+.middle-content-right ul{position: relative;margin-left: -20px;right: -1px;}
+.middle-content-right ul li{width: 235px;height: 299px;float: left;margin-left: 19px;border: 1px solid #e8f3ea;border-radius: 10px;text-align: center;background-color: white;}
+.middle-content-right ul li a{text-decoration: none;}
+.middle-content-right ul li a img{width: 150px;height: 150px;text-align: center;position: relative;top: 25px;}
+.middle-content-right ul li h2{text-align: center;position: relative;top: 40px;font-size: 16px;}
+.middle-content-right ul li p{position: relative;top: 12px;font-size: 19px;color: #F34848;margin-left:70px;}
+.middle-content-right ul li p  span{font-size: 12px;}
+.middle-content-right ul li:hover{position: relative;top: -2px;box-shadow: 0px 2px 10px #d1d1c8;cursor: pointer;}
+/* 折扣小红字 */
+.discount{width: 230px;height: 21px;margin: 0 auto;margin-top: 50px;font-family: '微软雅黑';}
+.discount div{font-size: 10px;line-height: 21px;}
+.discount .discount-content1{width: 28px;height: inherit;color: rgb(246, 52, 52);border: 1px solid rgb(242, 195, 194);margin-left: 11px;border-radius: 2px;float: left;}
+.discount .discount-content2{width: 85px;height: inherit;color: rgb(246, 52, 52);border: 1px solid rgb(242, 195, 194);margin-left: 4px;border-radius: 2px;float: left;}
+.discount .discount-content3{width: 81px;height: inherit;color: rgb(246, 52, 52);border: 1px solid rgb(242, 195, 194);margin-left:4px;border-radius: 2px;float: left;}
+.discount .discount-content4{width: 80px;height: inherit;color: rgb(246, 52, 52);border: 1px solid rgb(242, 195, 194);border-radius: 2px;clear: left;margin:0 auto;}
+.equity{margin-top: 71px;left: 0px;}
+#red_middle_txt{margin-left: 73px;}
+/* 底部推荐商品2 */
+.middle-content1{height: 301px;width: inherit;margin-top: 17px;}
+.middle-content-right1{width: inherit;height: 300px;float:right;}
+.middle-content-right1 ul{position: relative;margin-left: -20px;right: -1px;}
+.middle-content-right1 ul li{width: 235px;height: 299px;float: left;margin-left: 19px;border: 1px solid #e8f3ea;border-radius: 10px;text-align: center;background-color: white;}
+.middle-content-right1 ul li a{text-decoration: none;}
+.middle-content-right1 ul li a img{width: 150px;height: 150px;text-align: center;position: relative;top: 25px;}
+.middle-content-right1 ul li h2{text-align: center;position: relative;top: 40px;font-size: 16px;}
+.middle-content-right1 ul li p{position: relative;top: 12px;font-size: 19px;color: #F34848;margin-left:70px;}
+.middle-content-right1 ul li p s{font-size: 16px;color: #AAAAAA;}
+.middle-content-right1 ul li:hover{position: relative;top: -2px;box-shadow: 0px 2px 10px #d1d1c8;cursor: pointer;}
+/* 折扣小红字2 */
+.middle-content-right1 ul li p  span{font-size: 12px;}
+.red-left-txt{position: relative;left: 5px;}
+.money-left{color: rgba(0,0,0,0.3);}
+.middle-content-right1 ul li p s{font-size: 12px;color: rgba(0,0,0,0.3) ;}
+.discount .discount-content5{width: 85px;height: inherit;color: rgb(246, 52, 52);border: 1px solid rgb(242, 195, 194);margin-left: 28px;border-radius: 2px;float: left;}
+.discount .discount-content6{width: 81px;height: inherit;color: rgb(246, 52, 52);border: 1px solid rgb(242, 195, 194);margin-left:4px;border-radius: 2px;float: left;}
+.discount .discount-content7{width: 28px;height: inherit;color: rgb(246, 52, 52);border: 1px solid rgb(242, 195, 194);margin-left: 58px;border-radius: 2px;float: left;}
+.discount .discount-content8{width: 70px;height: inherit;color: rgb(246, 52, 52);border: 1px solid rgb(242, 195, 194);margin-left:4px;border-radius: 2px;float: left;}
+.discount .discount-content9{width:75px;height: inherit;color: rgb(246, 52, 52);border: 1px solid rgb(242, 195, 194);margin-left: 39px;border-radius: 2px;float: left;}
+.discount .discount-content10{width: 70px;height: inherit;color: rgb(246, 52, 52);border: 1px solid rgb(242, 195, 194);margin-left:4px;border-radius: 2px;float: left;}
+/* 底部线条 */
+.nomore{margin-top: 50px;}
+.shortline3{width: 570px;height: 1px;background-color:#e7e7e7 ;}
+.shortline4{width: 570px;height: 1px;background-color:#e7e7e7 ;position: relative;right: -50px;}
+.youtxt2{position: relative;left: 25px;top: -8px;}
+.youtxt2 span{font-size: 14px;color: #999999;}	
+	
+/* 超链接a的样式控制 */
+.redirect1{position: absolute;top: 0px;width: 235px;height: 299px;left: 20px;display: block;z-index: 200;}
+.redirect2{position: absolute;top: 0px;width: 235px;height: 299px;left: 276px;display: block;z-index: 200;}
+.redirect3{position: absolute;top: 0px;width: 235px;height: 299px;left: 532px;display: block;z-index: 200;}
+.redirect4{position: absolute;top: 0px;width: 235px;height: 299px;left: 786px;display: block;z-index: 200;}
+.redirect5{position: absolute;top: 0px;width: 235px;height: 299px;left: 1044px;display: block;z-index: 200;}
+.redirect6{position: absolute;top: 0px;width: 235px;height: 299px;left: 20px;display: block;z-index: 200;}
+.redirect7{position: absolute;top: 0px;width: 235px;height: 299px;left: 276px;display: block;z-index: 200;}
+.redirect8{position: absolute;top: 0px;width: 235px;height: 299px;left: 532px;display: block;z-index: 200;}
+.redirect9{position: absolute;top: 0px;width: 235px;height: 299px;left: 786px;display: block;z-index: 200;}
+.redirect10{position: absolute;top: 0px;width: 235px;height: 299px;left: 1044px;display: block;z-index: 200;}

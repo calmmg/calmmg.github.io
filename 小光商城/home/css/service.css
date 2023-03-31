@@ -1,0 +1,107 @@
+/* 顶部区域 */
+.topbk{width: 100%;background-color: #222222;height: 39px;z-index: 5;}
+.top{width: 100%;height: 800px;background-color: #1889F2;}
+.topcontent{width: 1260px;height: inherit;margin: 0 auto; }
+.top-top{width: inherit;height: 35px;}
+.top-topleft {margin-left: -20px;}
+.top-topleft ul li{float: left;margin-left: 20px;line-height: 35px;}
+.top-topleft ul li a{color: white;text-decoration:none;font-size: 13px;font-weight: bold;color: white;}
+.top-topleft ul li a:hover{color: #FF6A00;}
+/* 购物车旁边的右划线 */
+.top-topright ul li .top-line1{width:1px;height:15px;margin-top: -24px;margin-left: 48px;border-right: 2px solid white;}
+.top-topright ul li .top-line2{width:1px;height:15px;margin-top: -24px;margin-left: 45px;border-right: 2px solid white;}
+.top-topright ul{margin-right: -19px;}
+.top-topright ul li{float: right;margin-right: 20px;line-height: 35px;}
+.top-topright ul li a{color: white;text-decoration:none;font-size: 13px;font-weight: bold;color: white;}
+.top-topright ul li i{margin-left: 17px;color: white;width: 1px;height: 0.5px;color: white;}
+.top-topright ul li a:hover{color: #FF6A00;}
+.top-topright ul li  span{color:white; font-size:19px;line-height: 35px;position: relative;top: 2px;right: 4px;color: white;}
+.top-topright .shopping{float: right;margin-right: 0px;line-height: 35px;width: 80px;text-align: center;height: 35px;margin-right: 18px;text-align: right;}
+.top-topright .shopping a{color: white;text-decoration:none;font-size: 13px;font-weight: bold;color: white;}
+.top-topright .shopping a:hover{color:#FF6A00; ;}
+.top-topright .shopping span{color:white; font-size:19px;line-height: 35px;position: relative;top: 2px;right: 4px;color: white;}
+/* .shopping:hover{background-color: #aaff7f;cursor: pointer;} */
+/* 购物车隐藏部分 */
+/* .shoppinghide{width: 318px;height: 92px;background-color:#aaff7f ;text-align: center;font-size: 13px;position: absolute;
+left: 943px;top: 33px;display: none;z-index: 10;border: 1px solid none;border-top-left-radius: 10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;
+z-index: 500;
+} */
+.shoppinghide p{display: block;position: relative;top: 5px;color: white;font-family: '微软雅黑';font-size: 13px;font-weight: bold;color: white;}
+/* 导航部分 */
+.nav{width: 1260px;height: 90px;margin: 0 auto;background-color: white;z-index: 5;white-space:nowrap;margin-top:15px;}
+.navigation{width: inherit;height: 55px;margin-top: 15px;}
+.navigation-logo{width: 250px;height: inherit;float: left;}
+.navigation-logo .pic{width: 53px;height: inherit;background-image:url(../image/logo.jpg);background-size: 63px 63px;
+background-repeat: no-repeat;border:1px solid none ;border-radius: 10px;background-origin: content-box;background-position: -6px;
+float: left;} 
+.navigation-logo h1{float: left;font-size: 30px;color:black;font-family: '微软雅黑';line-height: 55px;margin-left: 20px;}
+.navigation-content{width: 710px;margin-left:17px;height: inherit;float: left;}
+.navigation-content li{float: left;margin-left: 45px;line-height: 55px;}
+.navigation-content li a{text-decoration: none;color: black;font-size: 18px;}
+#nav-check{color:red;}
+#nav-check:hover{color:#FF6A00;}
+.navigation-content li a:hover{color: #FF6A00;}
+.navigation-search{width: 250px ;height: inherit;float: right;}
+.navigation-search input{width:166px; #8E8E94;margin-top: 8px;border: none;border-radius: 100px;background-color:#F6F6F6; height: 40px;
+margin-top: 5px;text-indent: 1em;float: left;margin-left: 80px;color: white;
+}
+.navigation-search input:focus{outline: none;}
+.navigation-search input::placeholder{color: #E1E1E1;}
+.navigation-search p{float: left;line-height: 40px;clear: black;font-size:22px;margin-right: 0px;position: relative;left: 220px;top: -39px;color: black;}
+.navigation-search p:hover{cursor: pointer;color:#FF6A00;}
+/* 下划线 */
+.line1{width: 100%;height: 1px;background-color: #E9E9E9;margin-top: 20px;margin-top: -20px;}
+/* 平台服务 */
+.platform{width: 1260px;height: 143px;margin: 0 auto;margin-top: 140px;}
+.platform p{float: left;font-size: 24px;font-family: '微软雅黑';}
+.shortline1{width:572px;height: 1px;background-color: #E9E9E9;position: relative;top: 13px;}
+.shortline2{width:572px;height: 1px;background-color: #E9E9E9;position: relative;right: -20px;top: 13px;}
+.bt{position: relative;left: 12px;}
+.platform ul{width: 1260px;height: 120px;margin-top: 43px;margin-left: -19px;}
+.platform ul li{float: left;width: 300px;height: 100px;background-color: #0000FF;margin-left: 19px;border: 1px solid none;border-radius: 10px;text-align: center;
+
+}
+.platform ul li a{text-decoration: none;width: 300px;height: 100px;display: block;}
+.platform ul li a span{color: #5B6168;font-size: 18px;font-family: '微软雅黑';position: relative;top: 17px;}
+.platform ul li a img{width: 40px;height: 40px;position: relative;top: 31px;left: -2px;}
+.platform ul li:nth-child(1){background-color: #FFF9E8;}
+.platform ul li:nth-child(2){background-color: #E9FAF2;}
+.platform ul li:nth-child(3){background-color: #E9FAF2;}
+.platform ul li:hover{position: relative;top: -2px;}
+/* 品牌服务 */
+.brand{width: 1260px;height: 350px;margin: 0 auto;margin-top: 70px;}
+.brand p{float: left;font-size: 24px;font-family: '微软雅黑';}
+.shortline3{width:572px;height: 1px;background-color: #E9E9E9;position: relative;top: 13px;}
+.shortline4{width:572px;height: 1px;background-color: #E9E9E9;position: relative;right: -20px;top: 13px;}
+.bt2{position: relative;left: 12px;}
+.brand-nav{float: left;width: 100%;height: 40px;text-align: center;margin-top: 30px;}
+.brand-nav span a{text-decoration: none;color:#999999;font-size: 22px;line-height: 40px;margin-left: 55px;margin-right: 55px;}
+.brand-nav span a:hover{color:#ff00ff;}
+#brand-check{color: #ff00ff;}
+.brand ul{width: 1280px;height: 240px;margin-top: 100px;margin-left: -19px;}
+.brand ul li{float: left;width: 300px;height: 100px;background-color: #0000FF;margin-left: 19px;border: 1px solid none;border-radius: 10px;text-align: center;
+margin-top: 17px;
+}
+.brand ul li a{text-decoration: none;width: 300px;height: 100px;display: block;}
+.brand ul li a span{color: #5B6168;font-size: 18px;font-family: '微软雅黑';position: relative;top: 17px;}
+.brand ul li a img{width: 40px;height: 40px;position: relative;top: 31px;left: -2px;}
+.brand ul li:nth-child(1){background-color: #EAF3FF;}
+.brand ul li:nth-child(2){background-color: #EBFBFA;}
+.brand ul li:nth-child(3){background-color: #EBFBFA;}
+.brand ul li:nth-child(4){background-color: #FFF9E8;}
+.brand ul li:nth-child(5){background-color: #EBFBFA;}
+.brand ul li:nth-child(6){background-color: #EBF4FF;}
+.brand ul li:nth-child(7){background-color:#F1EEFF;}
+.brand ul li:nth-child(8){background-color:#FFF2EB;}
+.brand ul li:hover{position: relative;top: -2px;}
+/* 咨询服务 */
+.talk{width: 1260px;height: 377px;margin: 0 auto;margin-top: 48px;}
+.talk p{float: left;font-size: 24px;font-family: '微软雅黑';}
+.shortline5{width:572px;height: 1px;background-color: #E9E9E9;position: relative;top: 13px;}
+.shortline6{width:572px;height: 1px;background-color: #E9E9E9;position: relative;right: -20px;top: 13px;}
+.bt3{position: relative;left: 12px;}
+.btpic{width: 1280px;height: 240px;margin-top: 24px;margin-left: -19px;}
+.btpic a{display: block;width: 620px;height: 153px;float: left;margin-left:19px ;margin-top: 17px;}
+.btpic  a img{width: 620px;height: 155px;border: 1px solid none;border-radius: 10px;}
+.btpic a:hover{position: relative;top: -2px;}
+

@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2480707 */
+  src: url('iconfont.woff2?t=1636356657202') format('woff2'),
+       url('iconfont.woff?t=1636356657202') format('woff'),
+       url('iconfont.ttf?t=1636356657202') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weixiufuwu:before {
+  content: "\ead5";
+}
+
+.icon-sousuo:before {
+  content: "\eafe";
+}
+
+.icon-jiantou_liebiaoxiangyou:before {
+  content: "\eb03";
+}
+
+.icon-jiantou_liebiaoshouqi:before {
+  content: "\eb04";
+}
+
+.icon-mobile-alt:before {
+  content: "\e79a";
+}
+
+.icon-headset-fill:before {
+  content: "\e7c9";
+}
+
+.icon-arrow-right:before {
+  content: "\e840";
+}
+
+.icon-arrow-left:before {
+  content: "\e841";
+}
+
+.icon-angle-right:before {
+  content: "\e84e";
+}
+
+.icon-angle-left:before {
+  content: "\e84f";
+}
+
+.icon-icon-test:before {
+  content: "\e658";
+}
+
+.icon-arrow-right1:before {
+  content: "\e743";
+}
+
+.icon-arrow-left1:before {
+  content: "\e744";
+}
+
+.icon-service:before {
+  content: "\e764";
+}
+
+.icon-account:before {
+  content: "\e7b4";
+}
+
+.icon-cart-Empty1:before {
+  content: "\e7b5";
+}
+
+.icon-arrow-double-left:before {
+  content: "\e665";
+}
+
+.icon-arrow-double-right:before {
+  content: "\e666";
+}
+
+.icon-cart-Empty:before {
+  content: "\e747";
+}
+
+.icon-leftarrow:before {
+  content: "\e755";
+}
+
+.icon-Rightbutton:before {
+  content: "\e765";
+}
+
+.icon-camera:before {
+  content: "\e7b2";
+}
+
+.icon-search:before {
+  content: "\e7b3";
+}
+
+.icon-email:before {
+  content: "\e66f";
+}
+
+.icon-fullscreen-shrink:before {
+  content: "\e676";
+}
+
+.icon-lock:before {
+  content: "\e677";
+}
+
+.icon-pdf:before {
+  content: "\e67a";
+}
+
+.icon-success:before {
+  content: "\e67f";
+}
+
+.icon-smile:before {
+  content: "\e67e";
+}
+
+.icon-switch:before {
+  content: "\e680";
+}
+
+.icon-setting:before {
+  content: "\e67d";
+}
+
+.icon-favorite-filling:before {
+  content: "\e68a";
+}
+
+.icon-smile-filling:before {
+  content: "\e68b";
+}
+
+.icon-rise-filling:before {
+  content: "\e68c";
+}
+

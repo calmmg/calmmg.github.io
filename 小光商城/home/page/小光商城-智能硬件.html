@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>小光商城-电子数码潮玩好物</title>
+		<!--引入icon图标-->
+		<link rel="icon" href="../image/zfx.jpg"  type="image/x-icon">
+		<!-- 引入css重置样式表 -->
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<!-- 引入css重叠样式表 -->
+		<link rel="stylesheet" type="text/css" href="../css/znyj.css"/>
+		<!-- 引入字体图标 -->
+		<link rel="stylesheet" type="text/css" href="../font/字体一/iconfont.css"/>
+		<!-- 引入JS脚本语言 -->
+		<script type="text/javascript" src="../js/znyj.js"></script>
+	</head>
+	<body  onload="allauto()">
+		<!-- 顶部背景盒子 -->
+		<div class="top" >
+			<!-- 中间内容盒子 -->
+			<div class="topcontent">
+				<!-- 顶部导航栏 -->
+				<div class="top-top">
+					<!-- 顶部左边导航栏 -->
+					<div class="top-topleft">
+						<ul>
+							<li><a href="" name="toop">小光官网</a></li>
+							<li><a href="">loT</a></li>
+							<li><a href="">云服务</a></li>
+							<li><a href="">北星科技</a></li>
+							<li><a href="">有品</a></li>
+							<li><a href="">企业团购</a></li>
+							<li><a href="">开放平台</a></li>
+							<li><a href="">资质证照</a></li>
+							<li><a href="">智能生活</a></li>
+							<li><a href="">协议规则</a></li>
+							<li><a href="">下载App</a></li>
+						</ul>
+					</div>
+					<!-- 顶部右边购物 -->
+					<div class="top-topright">
+						<ul>
+							<div class="shopping" id="shopping" onmouseover="shop()"><span class="iconfont icon-cart-Empty1" id="smallcar"></span><a href="../../users/cars.html" id="gwc"
+							onmousemove="changecarcolor()" onmouseout="rechangecarcolor()">购物车(0)</a></div>
+							<li><a href="../../users/register.html">注册</a><div class="top-line1"></div></li>
+							<li ><!-- <span class="iconfont icon-account"></span> --><a href="../../users/login.html">登录</a><div class="top-line2"></div></li>
+						</ul>
+					</div>
+					<div class="shoppinghide" id="shoppinghide">
+						<p id="ts">购物车中没有商品，赶紧选购吧！</p>
+					</div>
+				</div>
+				<!-- 顶部大logo和搜索部分 -->
+				<div class="navigation">
+					<div class="navigation-logo">
+						<div class="pic"></div>
+						<h1>小光商城</h1>
+					</div>
+					<div class="navigation-content">
+						<ul>
+							<li><a href="../page/小光商城-小光专区-首页.html" >小光专区</a></li>
+							<li><a href="../page/小光商城-光幻专区.html" >光幻专区</a></li>
+							<li><a href="../page/小光商城-starlight专区.html" >starlight专区</a></li>
+							<li><a href="" id="nav-check">智能硬件</a></li>
+							<li><a href="../page/小光商城-潮流好物.html">潮流好物</a></li>
+							<li><a href="../page/小光商城-服务.html">服务</a></li>
+						</ul>
+					</div>
+					<div class="navigation-search">
+						<input type="text" name="" id="inputs" value="" placeholder="全部商品"  />
+						<a href="javascript:history.go()"><p class="iconfont icon-sousuo"></p></a>
+					</div>
+				</div>
+				<!-- 中间轮播图 -->
+				<!-- <div class="middlepic" id="middlepic" >
+					<a href="" id="lba"><img src="../image/two.jpg" id="imglb" ></a>
+					<div id="arrowleft" onmouseover="changecolor()" onmouseout="recovery()"><span class="iconfont icon-arrow-left1" id="leftcolor"></span></div>
+					<div id="arrowright" onmouseover="changecolorto()" onmouseout="recoveryto()"><span class="iconfont icon-arrow-right1" id="rightcolor"></span></div>
+					<dl id="circle">
+						<dd></dd>
+						<dd></dd>
+					</dl>
+				</div> -->
+				<!--新轮播图-->
+                <div class="banner" id="banner">
+                    <!--图片盒子-->
+                    <div class="imgbox" id="imgbox">
+                        <img src="../image/two.jpg" alt="" onclick="jumpone()" class="show">
+                        <img src="../img/yjlb2.png" alt="" onclick="jumptwo()" >
+                    </div>
+                    <!--左右箭头-->
+                    <div id="btn">
+                        <div id="arrowleft" onmouseover="changecolor()" onmouseout="recovery()"><span
+						class="iconfont icon-arrow-left1" id="leftcolor"></span></div>
+                        <div id="arrowright" onmouseover="changecolorto()" onmouseout="recoveryto()"><span
+						class="iconfont icon-arrow-right1" id="rightcolor"></span></div>
+                    </div>
+                    <!--指示点-->
+                    <ul id="btnlist" class="btnlist">
+                        <li onmouseover="liclick(this)" class="showli"></li>
+                        <li onmouseover="liclick(this)"></li>
+                    </ul>
+                </div>
+				<!-- 底部手机图片 -->
+				<div class="bottompic">
+					<ul>
+						<li>
+							<a href="../../shoppingdetail/page/小光airx.html"><img src="../image/yjbottom-1.webp" ><br><span>耳机影音</span></a>
+						</li>
+						<li>
+							<a href="../../shoppingdetail/page/starlightwatch23.html"><img src="../image/yjbottom-2.webp"><span>智能穿戴</span></a>
+						</li>
+						<li>
+							<a href="../../shoppingdetail/page/光幻电视k.html"><img src="../image/yjbottom-3.webp" ><span>智能电视</span></a>
+						</li>
+						<li>
+							<a href="../../shoppingdetail/page/星光headsetone.html"> <img src="../image/yjbottom-4.webp" ><span>手机配件</span></a>
+						</li>
+						<li>
+							<a href="../../shoppingdetail/page/powerhead80w.html"><img src="../image/yjbottom-5.webp" ><span>充电配件</span></a>
+						</li>
+						<li>
+							<a href="../../shoppingdetail/page/chargingline.html"><img src="../image/yjbottom-6.webp" ><span>数据线</span></a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--底部区域-->
+		<div class="middle">
+			<div class="middle-content">
+				<div class="middle-content1">
+					<h1>热卖专区</h1>
+					<ul>
+						<!-- 超链接跳转购物车 -->
+						<a href="../../shoppingdetail/page/starlightwatch2.html" class="redirect1" target="_blank" onmouseover="move_one()" onmouseout="remove_one()"></a>
+						<a href="../../shoppingdetail/page/星光耳机2one.html" class="redirect2" target="_blank" onmouseover="move_two()" onmouseout="remove_two()"></a>
+						<a href="../../shoppingdetail/page/小光airx.html" class="redirect3" target="_blank" onmouseover="move_three()" onmouseout="remove_three()"></a>
+						<a href="../../shoppingdetail/page/星光free.html" class="redirect4" target="_blank" onmouseover="move_four()" onmouseout="remove_four()"></a>
+						<a href="../../shoppingdetail/page/光幻airyouth.html" class="redirect5" target="_blank" onmouseover="move_five()" onmouseout="remove_five()"></a>
+						<a href="../../shoppingdetail/page/星光watchECG.html" class="redirect6" target="_blank" onmouseover="move_six()" onmouseout="remove_six()"></a>
+						<a href="../../shoppingdetail/page/小光vitalitywatch.html" class="redirect7" target="_blank" onmouseover="move_seven()" onmouseout="remove_seven()"></a>
+						<a href="../../shoppingdetail/page/光幻电视k.html" class="redirect8" target="_blank" onmouseover="move_eight()" onmouseout="remove_eight()"></a>
+						<li id="pic1">
+							<a href="">
+								<img src="../image/yjd1-1.webp" >
+								<div class="middle-content1-txt">
+									<h2>星光&nbsp;Watch2</h2>
+									<p>专业健康管理|实时检测</p>
+									<br><span>￥1499</span>
+								</div>
+							</a>
+						</li>
+						<li id="pic2">
+							<a href="">
+								<img src="../image/yjd1-2.webp" >
+								<div class="middle-content1-txt">
+								<h2>星光&nbsp;Air2</h2>
+								<p>AI深度通话降噪</p>
+								<br><span>￥229</span>
+								</div>
+							</a>
+						</li>
+						<li id="pic3">
+							<a href="">
+								<img src="../image/yjd1-3.webp" >
+								<div class="middle-content1-txt">
+								<h2>小光&nbsp;Air&nbsp;X</h2>
+								<p>双重主动降噪</p>
+								<br><span>￥799</span>
+								</div>
+							</a>
+						</li>
+						<li id="pic4">
+							<a href="">
+								<img src="../image/yjd1-4.webp" >
+								<div class="middle-content1-txt">
+								<h2>starlight&nbsp;Free2</h2>
+								<p>蓝牙5.2低延时双传</p>
+								<br><span>￥549</span>
+								</div>
+							</a>
+						</li>
+						<li class="distance" id="pic5">
+							<a href="">
+								<img src="../image/yjd1-5.webp" >
+								<div class="middle-content1-txt">
+								<h2>光幻&nbsp;Air&nbsp;青春版</h2>
+								<p>24小时长续航</p>
+								<br><span>￥99</span>
+								</div>
+							</a>
+						</li>
+						<li class="distance" id="pic6">
+							<a href="" >
+								<img src="../image/yjd1-6.webp" >
+								<div class="middle-content1-txt">
+								<h2>starlight&nbsp;新品手表</h2>
+								<p>24h不规则心率监测</p>
+								<br><span>￥2499</span>
+								</div>
+							</a>
+						</li>
+						<li class="distance" id="pic7">
+							<a href="" >
+								<img src="../image/vitalitypic3.png" >
+								<div class="middle-content1-txt">
+								<h2>小光&nbsp;手环&nbsp;活力版</h2>
+								<p>全天睡眠检测</p>
+								<br><span>￥199</span>
+								</div>
+							</a>
+						</li>
+						<li class="distance" id="pic8">
+							<a href="" >
+								<img src="../image/yjd1-8.webp" >
+								<div class="middle-content1-txt">
+								<h2>智能电视K9x</h2>
+								<p>电影级画质认证</p>
+								<br><span>￥1398</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="middle-content2">
+					<h1>智能声学</h1>
+					<a href="../../shoppingdetail/page/星光free.html" class="redirect12" target="_blank" onmouseover="move_twelve()" onmouseout="remove_twelve()"></a>
+					<div class="middle-content2-left">
+						<a href=""><img src="../image/relation2.jpg" id="pic12"></a>
+					</div>
+					<div class="middle-content2-right">
+						<ul>
+							<!-- 超链接跳转商品详情页 -->
+							<a href="../../shoppingdetail/page/星光耳机2one.html" class="redirect9" target="_blank" onmouseover="move_nine()" onmouseout="remove_nine()"></a>
+							<a href="../../shoppingdetail/page/光幻airyouthtwo.html" class="redirect10" target="_blank" onmouseover="move_ten()" onmouseout="remove_ten()"></a>
+							<a href="../../shoppingdetail/page/星光free.html" class="redirect11" target="_blank" onmouseover="move_eleven()" onmouseout="remove_eleven()"></a>
+							<li id="pic9"><a href=""><img src="../image/yjd2-2.webp" ></a>
+								<h2>星光&nbsp;Airs2</h2>
+								<p><span>补贴价</span>&nbsp;￥199</p>
+							</li>
+							<li id="pic10"><a href=""><img src="../image/yjd2-3.webp" ></a>
+								<h2>光幻&nbsp;青春版</h2>
+								<p><span>补贴价</span>&nbsp;￥99</p>
+							</li>
+							<li id="pic11"><a href=""><img src="../image/yjd2-4.webp" ></a>
+								<h2>星光&nbsp;Air&nbsp;free2</h2>
+								<p>￥599</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="middle-content3">
+					<div class="middle-content3-right">
+						<ul>
+							<a href="../../shoppingdetail/page/小光airx.html" class="redirect13" target="_blank" onmouseover="move_thirteen()" onmouseout="remove_thirteen()"></a>
+							<a href="../../shoppingdetail/page/星光headsetone.html" class="redirect14" target="_blank" onmouseover="move_fourteen()" onmouseout="remove_fourteen()"></a>
+							<a href="../../shoppingdetail/page/星光耳机2two.html" class="redirect15" target="_blank" onmouseover="move_fifteen()" onmouseout="remove_fifteen()"></a>
+							<a href="../../shoppingdetail/page/星光headsettwo.html" class="redirect16" target="_blank" onmouseover="move_sixteen()" onmouseout="remove_sixteen()"></a>
+							<a href="../../shoppingdetail/page/光幻budswhite.html" class="redirect17" target="_blank" onmouseover="move_seventeen()" onmouseout="remove_seventeen()"></a>
+							<li id="pic13"><a href=""><img src="../image/yjd2-5.webp" ></a>
+								<h2>小光&nbsp;Airs&nbsp;X</h2>
+								<p><span>补贴价</span>&nbsp;￥799</p>
+							</li>
+							<li id="pic14"><a href=""><img src="../image/yjd2-6.webp" ></a>
+								<h2>starlight&nbsp;立体声耳机&nbsp;雅致灰</h2>
+								<p>￥129</p>
+							</li>
+							<li id="pic15"><a href=""><img src="../image/yjd2-7.webp" ></a>
+								<h2>星光&nbsp;Air2</h2>
+								<p><span>补贴价</span>&nbsp;￥229</p>
+							</li>
+							<li id="pic16"><a href=""><img src="../image/yjd2-8.webp" ></a>
+								<h2>starlight&nbsp;立体声耳机&nbsp;深邃黑</h2>
+								<p>￥129</p>
+							</li>
+							<li id="pic17"><a href=""><img src="../image/yjd2-9.webp" ></a>
+								<h2>光幻&nbsp;半入式耳机&nbsp;暮雪白</h2>
+								<p><span>补贴价</span>&nbsp;￥69</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- <div class="middle-content4">
+					<h1>智能穿戴</h1>
+					<div class="middle-content4-left">
+						<a href=""><img src="../image/yjd3-1.png" ></a>
+					</div>
+					<div class="middle-content4-right">
+						<ul>
+							<li><a href=""><img src="../image/yjd3-2.webp" ></a>
+								<h2>小光手表&nbsp;42v&nbsp;蓝牙版</h2>
+								<p><span>补贴价</span>&nbsp;￥1299</p>
+							</li>
+							<li><a href=""><img src="../image/yjd3-3.webp" ></a>
+								<h2>光幻手表&nbsp;42v&nbsp;NFC版</h2>
+								<p>￥1999</p>
+							</li>
+							<li><a href=""><img src="../image/yjd3-4.webp" ></a>
+								<h2>starlight手表&nbsp;42v&nbsp;SIM版</h2>
+								<p>￥1599</p>
+							</li>
+						</ul>
+					</div>
+				</div> -->
+				<!-- <div class="middle-content5">
+					<div class="middle-content5-right">
+						<ul>
+							<li><a href=""><img src="../image/yjd3-5.webp" ></a>
+								<h2>新品预约&nbsp;starlight&nbsp;Watch</h2>
+								<p>￥2499</p>
+							</li>
+							
+							<li><a href=""><img src="../image/yjd3-6.webp" ></a>
+								<h2>小光&nbsp;2手表46v&nbsp;SIM版</h2>
+								<p><span>补贴价</span>&nbsp;￥1999</p>
+							</li>
+							<li><a href=""><img src="../image/yjd3-7.webp" ></a>
+								<h2>光幻&nbsp;Watch&nbsp;Free&nbsp;新品手表</h2>
+								<p>￥599</p>
+							</li>
+							<li><a href=""><img src="../image/yjd3-8.webp" ></a>
+								<h2>小光&nbsp;手环&nbsp;青春版&nbsp;蓝色风暴</h2>
+								<p>￥199</p>
+							</li>
+							<li><a href=""><img src="../image/yjd3-9.webp" ></a>
+								<h2>小光&nbsp;手环&nbsp;时尚版&nbsp;流沙金</h2>
+								<p><span>活动价</span>&nbsp;￥269</p>
+							</li>
+						</ul>
+					</div>
+				</div> -->
+				<div class="middle-content6">
+					<h1>智能电视</h1>
+					<a href="../../shoppingdetail/page/光幻电视k.html" class="redirect18" target="_blank" onmouseover="move_eighteen()" onmouseout="remove_eighteen()"></a>
+					<div class="middle-content6-left">
+						<a href=""><img src="../image/yjd4-1.jpg" id="pic18"></a>
+					</div>
+					<div class="middle-content6-right">
+						<ul>
+							<a href="../../shoppingdetail/page/小光电视k9one.html" class="redirect19" target="_blank" onmouseover="move_nineteen()" onmouseout="remove_nineteen()"></a>
+							<a href="../../shoppingdetail/page/小光电视k9two.html" class="redirect20" target="_blank" onmouseover="move_twenty()" onmouseout="remove_twenty()"></a>
+							<a href="../../shoppingdetail/page/小光电视k9three.html" class="redirect21" target="_blank" onmouseover="move_twentyone()" onmouseout="remove_twentyone()"></a>
+							<li id="pic19"><a href=""><img src="../image/yjd4-2.webp" ></a>
+								<h2>智能电视K9&nbsp;43寸</h2>
+								<p>￥1999</p>
+							</li>
+							<li id="pic20"><a href=""><img src="../image/yjd4-3.webp" ></a>
+								<h2>智能电视K9&nbsp;65英寸</h2>
+								<p>￥2999</p>
+							</li>
+							<li id="pic21"><a href=""><img src="../image/yjd4-4.webp" ></a>
+								<h2>小光&nbsp;智能电视K9&nbsp;75英寸</h2>
+								<p>￥4699</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="middle-content7">
+					<h1>周边配件</h1>
+					<a href="" class="redirect22"  onmouseover="move_twentytwo()" onmouseout="remove_twentytwo()"></a>
+					<div class="middle-content7-left">
+						<a href=""><img src="../image/yjd5-1.jpg"  id="pic22"></a>
+					</div>
+					<div class="middle-content7-right">
+						<ul>
+							<a href="../../shoppingdetail/page/charge30w.html" class="redirect23" target="_blank" onmouseover="move_twentythree()" onmouseout="remove_twentythree()"></a>
+							<a href="../../shoppingdetail/page/power70w.html" class="redirect24" target="_blank" onmouseover="move_twentyfour()" onmouseout="remove_twentyfour()"></a>
+							<a href="../../shoppingdetail/page/chargingline.html" class="redirect25" target="_blank" onmouseover="move_twentyfive()" onmouseout="remove_twentyfive()"></a>
+							<li id="pic23"><a href=""><img src="../image/yjd5-2.webp" ></a>
+								<h2>30W&nbsp;闪充套装</h2>
+								<p>￥99</p>
+							</li>
+							<li id="pic24"><a href=""><img src="../image/yjd5-33.jpg" ></a>
+								<h2>70W闪充移动电源</h2>
+								<p><span>补贴价</span>￥179</p>
+							</li>
+							<li id="pic25"><a href=""><img src="../image/yjd5-4.webp" ></a>
+								<h2>闪充&nbsp;USB&nbsp;数据线</h2>
+								<p>￥29</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="middle-content8">
+					<div class="middle-content8-right">
+						<ul>
+							<a href="../../shoppingdetail/page/powerhead80w.html" class="redirect26" target="_blank" onmouseover="move_twentysix()" onmouseout="remove_twentysix()"></a>
+							<a href="../../shoppingdetail/page/charge65w.html" class="redirect27" target="_blank" onmouseover="move_twentyseven()" onmouseout="remove_twentyseven()"></a>
+							<a href="../../shoppingdetail/page/power20w.html" class="redirect28" target="_blank" onmouseover="move_twentyeight()" onmouseout="remove_twentyeight()"></a>
+							<a href="../../shoppingdetail/page/wireless45w.html" class="redirect29" target="_blank" onmouseover="move_twentynine()" onmouseout="remove_twentynine()"></a>
+							<a href="../../shoppingdetail/page/wirelesspower35w.html" class="redirect30" target="_blank" onmouseover="move_thirty()" onmouseout="remove_thirty()"></a>
+							<li id="pic26"><a href=""><img src="../image/yjd5-5.webp" ></a>
+								<h2>小光&nbsp;80W&nbsp;电源适配器</h2>
+								<p>￥159</p>
+							</li>
+							
+							<li id="pic27"><a href=""><img src="../image/yjd5-6.webp" ></a>
+								<h2>光幻&nbsp;65W超级闪充套装</h2>
+								<p>￥179</p>
+							</li>
+							<li id="pic28"><a href=""><img src="../image/yjd5-7.jpg" ></a>
+								<h2>20W快充充电宝移动电源</h2>
+								<p>￥98</p>
+							</li>
+							<li id="pic29"><a href=""><img src="../image/wirelesspic2.png" ></a>
+								<h2>starlight&nbsp;45W&nbsp;无线闪充</h2>
+								<p>￥349</p>
+							</li>
+							<li id="pic30"><a href=""><img src="../image/yjd5-9.webp" ></a>
+								<h2>小光&nbsp;无线充电器&nbsp;35W</h2>
+								<p><span>补贴价</span>&nbsp;￥99</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footerbox">
+			<!-- 售后退货图 -->
+			<div class="footerbox-top">
+				<ul>
+					<li><a href=""><img src="../image/ft-1.svg" ><br><span>1年全国联保</span></a></li>
+					<li><a href=""><img src="../image/ft-2.svg" ><br><span>7天无理由退货</span></a></li>
+					<li><a href=""><img src="../image/ft-3.svg" ><br><span>官方换货保障</span></a></li>
+					<li><a href=""><img src="../image/ft-4.svg" ><br><span>满79元包邮</span></a></li>
+					<li><a href=""><img src="../image/ft-5.svg" ><br><span>85629家售后网点</span></a></li>
+				</ul>
+			</div>
+			<!-- 下划线1 -->
+			<div class="footerbox-oneline"></div>
+			<!-- 产品和客服 -->
+			<div class="footerbox-content">
+				<div class="footerbox-contentleft">
+					<div class="footerbox-contentleft-one">
+						<h2>光幻产品</h2>
+						<p><a href="">光幻&nbsp;X5</a></p>
+						<p><a href="">光幻&nbsp;K8Pro</a></p>
+						<p><a href="">光幻&nbsp;9s</a></p>
+						<p><a href="">光幻&nbsp;K7x</a></p>
+						<p><a href="">光幻&nbsp;Find&nbsp;X3</a></p>
+						<p><a href="">光幻&nbsp;Find&nbsp;X14&nbsp;Pro</a></p>
+						<p><a href="">光幻&nbsp;P10&nbsp;Pro</a></p>
+					</div>
+					<div class="footerbox-contentleft-two">
+						<h2>小光产品</h2>
+						<p><a href="">小光&nbsp;12</a></p>
+						<p><a href="">小光&nbsp;Y15</a></p>
+						<p><a href="">小光&nbsp;P50s</a></p>
+						<p><a href="">小光&nbsp;K9&nbsp;Pro</a></p>
+						<p><a href="">小光&nbsp;K9&nbsp;Plus</a></p>
+						<p><a href="">小光&nbsp;手表</a></p>
+						<p><a href="">小光&nbsp;Buds&nbsp;Pro</a></p>
+					</div>
+					<div class="footerbox-contentleft-three">
+						<h2>starlight产品</h2>
+						<p><a href="">starlight&nbsp;GT&nbsp;Neo4T</a></p>
+						<p><a href="">starlight&nbsp;手表T1</a></p>
+						<p><a href="">starlight&nbsp;V7&nbsp;Pro&nbsp;至尊版</a></p>
+						<p><a href="">starlight&nbsp;大师&nbsp;探索版</a></p>
+						<p><a href="">starlight&nbsp;Q9&nbsp;Plus</a></p>
+						<p><a href="">starlight&nbsp;Buds&nbsp;Air&nbsp;2</a></p>
+						<p><a href="">starlight&nbsp;Buds&nbsp;Pro&nbsp;透明探索版</a></p>
+					</div>
+					<div class="footerbox-contentleft-four">
+						<h2>服务政策</h2>
+						<p><a href="">光幻售后政策</a></p>
+						<p><a href="">小光售后政策</a></p>
+						<p><a href="">starlight售后政策</a></p>
+						<p><a href="">配送发货说明</a></p>
+						<p><a href="">花呗分期说明</a></p>
+						<p><a href="">电子发票说明</a></p>
+						<p><a href="">问题反馈</a></p>
+					</div>
+				</div>
+				<div class="footerbox-contentright">
+					<a href="" class="phonebutton">
+						<p><span><img src="../image/footer-客服.svg" ></span>在线客服
+						</p>
+					</a>
+					<h1>007-1799-666</h1>
+					<h2>24小时全国热线</h2>
+				</div>
+			</div>
+			<!-- 下划线2 -->
+			<div class="footerbox-twoline"></div>
+			<!--最底部公安图标-->
+			<div class="footerbox-bottom">
+				<p>©&nbsp;2022&nbsp;小光&nbsp;版本所有&nbsp;<a href="">光ICP备1705569号</a>&nbsp;|&nbsp;<a href="">隐私政策</a>&nbsp;|&nbsp;<a href="">用户使用协议</a>&nbsp;|&nbsp;<a href="">资质证照</a>&nbsp;|&nbsp;<a href="">知识产权</a></p>
+				<p class="footerbox-bottom-lastp"><span><img src="../image/footer-公安.png" ></span>&nbsp;&nbsp;<a href="" class="policetext">光公网安备&nbsp;55183337336849号</a></p>
+			</div>
+		</div>
+		<!-- 右边辅助菜单 -->
+		<div class="rightlist-father" id="rightlist-fz" >
+			<!-- 右边列表 -->
+			<div class="rightlist">
+				<a href="" onmouseover="righticon()">
+					<p class="iconfont icon-mobile-alt" id="right-one" ><br><span class="fdfont"><i id="sjapp">手机APP</i></span></p>
+					<span class="rightlist-uline1"></span>
+					
+				</a>
+				<a href="" onmouseover="righticontwoo()">
+					<p class="iconfont icon-account" id="right-two"	><br><span class="fdfont" ><i id="grzx">个人中心</i></span></p>
+					<span class="rightlist-uline2"></span>
+					
+				</a>
+				<a href="" onmouseover="righticonthree()">
+					<p class="iconfont icon-weixiufuwu" id="right-three" ><br><span class="fdfont"><i id="shfw">售后服务</i></span></p>
+					<span class="rightlist-uline3"></span>
+					
+				</a>
+				<a href="" onmouseover="righticonfour()">
+					<p class="iconfont icon-headset-fill" id="right-four" ><br><span class="fdfont"><i id="rgkf">人工客服</i></span></p>
+					<span class="rightlist-uline4"></span>
+					
+				</a>
+				<a href="../../users/cars.html" onmouseover="righticonfive()">
+					<p class="iconfont icon-cart-Empty1" id="right-five" ><br><span class="fdfont"><i id="gwcwb">购物车</i></span></p>
+					<span class="rightlist-uline5"></span>
+				</a>
+				<a href="#toop" onmouseover="righticonsix()">
+					<p class="iconfont icon-rise-filling" id="right-six" ><br><span class="fdfont"><i id="gotop">回到顶部</i></span></p>
+					
+				</a>
+			</div>
+			<!-- 右边图片和文本 -->
+			<div class="rightlist-pc">
+				<p class="righttxt1" id="rightpic1">下载App</p>
+				<p class="righttxt2" id="rightpc2">个人中心</p>
+				<p class="righttxt3" id="rightpc3">售后服务</p>
+				<p class="righttxt4" id="rightpc4">人工客服</p>
+				<p class="righttxt5" id="rightpc5">购物车&nbsp;(0)</p>
+				<p class="righttxt6" id="rightpc6">回到顶部</p>
+			</div>
+	</body>
+</html>

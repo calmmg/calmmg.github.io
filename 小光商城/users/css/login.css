@@ -1,0 +1,108 @@
+/* 背景大盒子 */
+.backbox{
+	width: 1707px;height: 914px;
+	background-image: url('../img/login-bg.56a249bc.png');
+	background-color:white;
+	background-position: top;
+	background-repeat: repeat;
+}
+/* .backbox img{width: 100%;height: 100%;}
+媒体查询改变背景图片盒子大小 */
+@media screen and (min-width:1353px)
+{.backbox{width: 1366px;height:732px;}}
+@media screen and (min-width:1537px)
+{.backbox{width:1552px;height: 832px;}}
+@media screen and (min-width:1691px)
+{.backbox{width: 1707px;height:915px;}}
+@media screen and (min-width:1879px)
+{.backbox{width: 1897px;height:1017px;}}
+@media screen and (min-width:2114px)
+{.backbox{width: 2130px;height:1145px;}}
+/* 中间内容大盒子 */ 
+.ct{width: 384px;
+	height: 550px;
+	/* border: 1px solid black; */
+	margin: 0 auto;
+	position: relative;
+	top:50px;
+}
+/* 媒体查询移动页面布局 */
+@media screen and (min-width:1537px)
+{.ct{position: relative;top: 90px;}}
+@media screen and (min-width:1691px)
+{.ct{position: relative;top: 130px;}}
+
+.ct h1
+{
+	font-family: '微软雅黑';
+	font-size: 40px;
+	text-align:center;
+	padding-top: 25px;
+}
+.ct p
+{
+	font-family: '微软雅黑';
+	font-size: 15px;
+	text-align:center;
+	padding-top: 15px;
+	
+}
+.ct form
+{
+	width: inherit;
+	height: 360px;
+	text-align: center;
+	font-family: '微软雅黑';
+	font-size: 30px;
+	background-color: white;
+	margin-top:50px;
+	padding-top: 50px;
+	border-radius: 10px;
+}
+.ct form h2{
+	margin-bottom: 50px;
+	color: black;
+	font-family: '微软雅黑';
+}
+.ct form input
+{
+	width: 300px;
+	height: 47px;
+	margin-top: 10px;
+	text-indent: 1em;
+	border:none ;
+	border-radius: 0%;
+	outline: none;
+	background-color: #F7F7F7;
+	font-size: 12px;
+	border: 1px solid none;
+	border-radius: 10px;
+}
+#pwd{margin-top: 20px;}
+#dlu{background-color: #C0F1D9;
+color: white;
+position:relative;
+top:40px;
+font-size: 15px;
+}
+#dlu:hover{
+	cursor: pointer;
+	color: white;
+	background-color:#b2dec8 ;
+}
+.registeruser{
+	position: relative;
+	top:10px;
+	color:#2ad181;
+	top: 50px;
+	left: 122px;
+	font-size: 14px;	
+}
+.registeruser:hover{
+	color:#a6ceba;
+}
+.ct form a{
+	list-style-type:none;
+	text-decoration:none;
+}
+ 

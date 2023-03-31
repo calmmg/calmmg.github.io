@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>小光商城-电子数码潮玩好物</title>
+		<!--引入icon图标-->
+		<link rel="icon" href="../image/zfx.jpg"  type="image/x-icon">
+		<!-- 引入css重置样式表 -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<!-- 引入css重叠样式表 -->
+		<link rel="stylesheet" type="text/css" href="css/cars.css"/>
+		<!-- 引入字体图标 -->
+		<link rel="stylesheet" type="text/css" href="../home/others/font/字体一/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="font/font1/iconfont.css">
+		<!-- 引入JS脚本语言 -->
+		<script type="text/javascript" src="js/cars.js"></script>
+	</head>
+	<body  onload="allauto()">
+		<div class="topbk">
+			<div class="topcontent">
+					<!-- 顶部左边导航栏 -->
+					<div class="top-topleft">
+						<ul>
+							<li><a href="" name="toop">小光官网</a></li>
+							<li><a href="">loT</a></li>
+							<li><a href="">云服务</a></li>
+							<li><a href="">北星科技</a></li>
+							<li><a href="">有品</a></li>
+							<li><a href="">企业团购</a></li>
+							<li><a href="">开放平台</a></li>
+							<li><a href="">资质证照</a></li>
+							<li><a href="">智能生活</a></li>
+							<li><a href="">协议规则</a></li>
+							<li><a href="">下载App</a></li>
+						</ul>
+					</div>
+					<!-- 顶部右边购物 -->
+					<div class="top-topright">
+						<ul>
+							<div class="shopping" id="shopping" onmouseover="shop()"><span class="iconfont icon-cart-Empty1" id="smallcar"></span><a href=""
+							onmousemove="changecarcolor()" onmouseout="rechangecarcolor()" id="gwc">购物车(0)</a></div>
+							<li><a href="../users/register.html">注册</a><div class="top-line1"></div></li>
+							<li ><!-- <span class="iconfont icon-account"></span> --><a href="../users/login.html">登录</a><div class="top-line2"></div></li>
+						</ul>
+					</div>
+					<!-- <div class="shoppinghide" id="shoppinghide">
+						<p id="ts">购物车中没有商品，赶紧选购吧！</p>
+					</div> -->
+				</div>
+				
+			</div>
+		</div>
+	<div class="navout">
+		<div class="nav">
+			<!-- 顶部大logo和搜索部分 -->
+			<div class="navigation">
+				<div class="navigation-logo">
+					<div class="pic"></div>
+					<h1>小光商城</h1>
+				</div>
+				<div class="navigation-content">
+					<ul>
+						<li><a href="../home/page/小光商城-小光专区-首页.html" >小光专区</a></li>
+						<li><a href="../home/page/小光商城-光幻专区.html" >光幻专区</a></li>
+						<li><a href="../home/page/小光商城-starlight专区.html" >starlight专区</a></li>
+						<li><a href="../home/page/小光商城-智能硬件.html" >智能硬件</a></li>
+						<li><a href="../home/page/小光商城-潮流好物.html" >潮流好物</a></li>
+						<li><a href="../home/page/小光商城-服务.html" >服务</a></li>
+					</ul>
+				</div>
+				<div class="navigation-search">
+					<input type="text" name="" id="inputs" value="" placeholder="全部商品"  />
+					<a href="javascript:history.go()"><p class="iconfont icon-sousuo"></p></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="line1"></div>
+	<div class="bigbox">
+		<div class="middlebox">
+			<div class="walk">
+				<p class="shopping_icon"><span  class="iconfont icon-shangpin1"></span></p>
+				<h2>购物车中还没有商品</h2>
+				<a href="../home/page/小光商城-小光专区-首页.html"><input type="button" value="去首页逛逛"></a>
+			</div>
+			<div class="recommend">
+				<div class="you">
+					<p class="shortline1"></p>
+					<p class="youtxt"><span>为你推荐</span></p>
+					<p class="shortline2"></p>
+				</div>
+				<!-- 底部推荐商品 -->
+				<div class="middle-content">
+					<div class="middle-content-right">
+						<ul>
+							<!-- 嵌套在li上用来实现超链接的跳转 -->
+							<a href="../shoppingdetail/page/小光15pro.html" class="redirect1" target="_blank" onmouseover="moveshadow_one()" onmouseout="movenoshadow_one()">
+							</a>
+							<a href="../shoppingdetail/page/光幻电视k.html" class="redirect2" target="_blank" onmouseover="moveshadow_two()" onmouseout="movenoshadow_two()">
+							</a>
+							<a href="../shoppingdetail/page/starlightX5.html" class="redirect3" target="_blank" onmouseover="moveshadow_three()" onmouseout="movenoshadow_three()">
+							</a>
+							<a href="../shoppingdetail/page/starlightwatch2.html" class="redirect4" target="_blank" onmouseover="moveshadow_four()" onmouseout="movenoshadow_four()">
+							</a>
+							<a href="../shoppingdetail/page/小光摄像头.html" class="redirect5" target="_blank" onmouseover="moveshadow_five()" onmouseout="movenoshadow_five()">
+							</a>
+							<li id="card1">
+								<a href="../shoppingdetail/page/小光15pro.html"><img src="img/15Problue5.png" ></a>
+								<h2>小光&nbsp;15Pro&nbsp;12G+256G</h2>
+								<div class="discount">
+									<div class="discount-content1">赠</div>
+									<div class="discount-content2">积分抵100元</div>
+									<div class="discount-content3">满2000减10</div>
+								</div>
+								<p><span>到手价￥</span>2589</p>
+							</li>
+							<li id="card2">
+								<a href=""><img src="img/rem2.png" ></a>
+								<h2>小光&nbsp;智能电视&nbsp;k9x&nbsp;55英寸</h2>
+								<div class="discount">
+									<div class="discount-content4">满999减10</div>
+								</div>
+								<p id="red_middle_txt"><span>到手价￥</span>1398</p>
+							</li>
+						
+							<li id="card3"><a href=""><img src="img/white1.png" ></a>
+								<h2>Starlight&nbsp;X5&nbsp;Pro&nbsp;天玑版</h2>
+								<div class="discount">
+									<div class="discount-content1">赠</div>
+									<div class="discount-content2">积分抵100元</div>
+									<div class="discount-content3">满700减10</div>
+								</div>
+								<p><span>到手价￥</span>4288</p>
+							</li>
+							<li id="card4"><a href=""><img src="img/rem4.webp" ></a>
+								<h2>Starlight&nbsp;Watch&nbsp;2&nbsp;智能手表</h2>
+								<div class="discount">
+									<div class="discount-content1">赠</div>
+									<div class="discount-content2">积分抵100元</div>
+									<div class="discount-content3">满49减10</div>
+								</div>
+								<p><span>到手价￥</span>1289</p>
+							</li>
+							<li id="card5"><a href=""><img src="img/rem5.png" ></a>
+								<h2>小光&nbsp;智能生活&nbsp;智能摄像头</h2>
+								<p class="equity">&nbsp;<span>到手价￥</span>169</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="middle-content1">
+					<div class="middle-content-right1">
+						<ul>
+							<!-- 嵌套在li上用来实现超链接的跳转 -->
+							<a href="../shoppingdetail/page/小光12pro.html" class="redirect6" target="_blank" onmouseover="moveshadow_six()" onmouseout="movenoshadow_six()">
+							</a>
+							<a href="../shoppingdetail/page/yanmai.html" class="redirect7" target="_blank" onmouseover="moveshadow_seven()" onmouseout="movenoshadow_seven()">
+							</a>
+							<a href="../shoppingdetail/page/小光X8.html" class="redirect8" target="_blank" onmouseover="moveshadow_eight()" onmouseout="movenoshadow_eight()">
+							</a>
+							<a href="../shoppingdetail/page/星光耳机2one.html" class="redirect9" target="_blank" onmouseover="moveshadow_nine()" onmouseout="movenoshadow_nine()">
+							</a>
+							<a href="../shoppingdetail/page/小光耳机z2one.html" class="redirect10" target="_blank" onmouseover="moveshadow_ten()" onmouseout="movenoshadow_ten()">
+							</a>
+							<li id="card6"><a href=""><img src="img/12p4.png" ></a>
+								<h2>小光&nbsp;12Pro&nbsp;皓月黑&nbsp;12G+256G</h2>
+								<div class="discount">
+									<div class="discount-content4">满700减10</div>
+								</div>
+								<p id="red_middle_txt"><span>到手价￥</span>2689</p>
+							</li>
+							
+							<li id="card7"><a href=""><img src="img/rem7.webp" ></a>
+								<h2>突音Yanmai&nbsp;USB鹅式麦克风</h2>
+								<div class="discount">
+									<div class="discount-content4">积分抵98元</div>
+								</div>
+								<p class="red-left-txt"><span>￥</span>108&nbsp;<span class="money-left">￥</span><s>138</s></p>
+							</li>
+							<li id="card8"><a href=""><img src="img/X8one.png" ></a>
+								<h2>小光&nbsp;X8&nbsp;镜紫&nbsp;12G+256G</h2>
+								<div class="discount">
+									<div class="discount-content5">积分抵100元</div>
+									<div class="discount-content6">满700减10</div>
+								</div>
+								<p><span>到手价￥</span>3589</p>
+							</li>
+							<li id="card9"><a href=""><img src="img/rem9.png" ></a>
+								<h2>Starlight&nbsp;Enco&nbsp;Air2&nbsp;Pro&nbsp;破晓灰</h2>
+								<div class="discount">
+									<div class="discount-content7">赠</div>
+									<div class="discount-content8">积分抵5%</div>
+								</div>
+								<p id="red_middle_txt"><span>到手价￥</span>218</p>
+							</li>
+							<li id="card10"><a href=""><img src="img/rem10.png" ></a>
+								<h2>光幻&nbsp;Buds&nbsp;Z4&nbsp;降噪耳机&nbsp;夜黑</h2>
+								<div class="discount">
+									<div class="discount-content9">积分抵20%</div>
+									<div class="discount-content10">满49减10</div>
+								</div>
+								<p><span>到手价￥</span>289</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="nomore">
+					<p class="shortline3"></p>
+					<p class="youtxt2"><span>没有更多了</span></p>
+					<p class="shortline4"></p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	
+	</body>
+</html>

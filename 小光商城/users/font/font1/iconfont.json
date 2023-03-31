@@ -1,0 +1,51 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1239546",
+      "name": "超市商品",
+      "font_class": "chaoshishangpin",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "4948991",
+      "name": "添加商品",
+      "font_class": "tianjiashangpin",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "6240907",
+      "name": "商品",
+      "font_class": "ziyuan",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "12975013",
+      "name": "商品",
+      "font_class": "shangpin",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "15513193",
+      "name": "商品",
+      "font_class": "shangpin1",
+      "unicode": "e6d8",
+      "unicode_decimal": 59096
+    },
+    {
+      "icon_id": "23416278",
+      "name": "商品",
+      "font_class": "shangpin2",
+      "unicode": "e707",
+      "unicode_decimal": 59143
+    }
+  ]
+}

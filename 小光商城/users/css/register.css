@@ -1,0 +1,64 @@
+.content{width: 400px;
+	height: 560px;
+	padding-top: 80px;
+	/* border: 1px solid black; */
+	margin: 0 auto;
+	margin-top: 50px;
+	
+}
+
+.content h1{
+	font-size: 40px;
+	text-align:center;
+	font-family: '微软雅黑';
+	
+}
+.content  ::placeholder{
+	text-indent: 1em;
+	color: #B2B2B2;
+}
+
+.content form{
+	width: inherit;
+	height: 360px;
+	font-size: 30px;
+	margin-top:40px;
+	border-radius: 10px;
+	text-align:center;
+	font-family: '微软雅黑';
+}
+.content form input{
+	width: 390px;
+	height: 42px;
+	margin-top: 30px;
+	text-indent: 1em;
+	border:none ;
+	border-radius: 0%;
+	outline: none;
+	background-color: #F7F7F7;
+	font-size: 12px;
+	border: 1px solid none;
+	border-radius: 10px;
+}
+.content p{
+	font-size: 10px;
+	float: left;
+	text-indent: 2px;
+	color: #B2B2B2;
+	margin-top: 10px;
+}
+.content .registerbtn{
+	margin-top: 60px;
+	width: 140px;
+	height: 40px;
+	background-color: #C0F1D9;
+	color: white;
+}
+.content a :hover{
+	cursor:pointer;
+	background-color:#b2dec8 ;
+	color: white;
+}
+/* 媒体查询，根据页面的分辨率大小改变布局移动 */
+@media screen and (min-width:1691px)
+{.content{margin-top: 110px;}}
